@@ -1,6 +1,7 @@
 #include <led-drivers/net/DriverNetLifx.h>
 #include <infinite-color-engine/ColorSpace.h>
 
+#include <QElapsedTimer>
 #include <QUdpSocket>
 #include <QNetworkInterface>
 #include <QByteArray>
